@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0448FFC916B4F48700E21FD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448FFC816B4F48700E21FD8 /* Default-568h@2x.png */; };
+		4249137A15A5422B001F58DD /* WTMGlyphDetectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4249137915A5422B001F58DD /* WTMGlyphDetectorView.m */; };
+		4249138615A5544E001F58DD /* circle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249138015A5544E001F58DD /* circle.json */; };
+		4249138815A5544E001F58DD /* square.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249138215A5544E001F58DD /* square.json */; };
+		4249138915A5544E001F58DD /* triangle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249138315A5544E001F58DD /* triangle.json */; };
+		4249138A15A5544E001F58DD /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249138415A5544E001F58DD /* V.json */; };
+		4249138B15A5544E001F58DD /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249138515A5544E001F58DD /* W.json */; };
+		42E359D415A536C000C9A3F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E359D315A536C000C9A3F3 /* UIKit.framework */; };
+		42E359D615A536C000C9A3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E359D515A536C000C9A3F3 /* Foundation.framework */; };
+		42E359D815A536C000C9A3F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E359D715A536C000C9A3F3 /* CoreGraphics.framework */; };
+		42E359DE15A536C000C9A3F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42E359DC15A536C000C9A3F3 /* InfoPlist.strings */; };
+		42E359E015A536C000C9A3F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E359DF15A536C000C9A3F3 /* main.m */; };
+		42E359E415A536C000C9A3F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E359E315A536C000C9A3F3 /* AppDelegate.m */; };
+		42E359E715A536C000C9A3F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E359E615A536C000C9A3F3 /* ViewController.m */; };
+		42E359EA15A536C000C9A3F3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E359E815A536C000C9A3F3 /* ViewController_iPhone.xib */; };
+		42E359ED15A536C000C9A3F3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E359EB15A536C000C9A3F3 /* ViewController_iPad.xib */; };
+		42E35A2715A5372500C9A3F3 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E359FC15A5372500C9A3F3 /* CDataScanner.m */; };
+		42E35A2815A5372500C9A3F3 /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = 42E359FD15A5372500C9A3F3 /* D.json */; };
+		42E35A2915A5372500C9A3F3 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0015A5372500C9A3F3 /* CFilteringJSONSerializer.m */; };
+		42E35A2A15A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0215A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.m */; };
+		42E35A2B15A5372500C9A3F3 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0415A5372500C9A3F3 /* CJSONSerialization.m */; };
+		42E35A2C15A5372500C9A3F3 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0615A5372500C9A3F3 /* CJSONSerializedData.m */; };
+		42E35A2D15A5372500C9A3F3 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0915A5372500C9A3F3 /* CDataScanner_Extensions.m */; };
+		42E35A2E15A5372500C9A3F3 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0B15A5372500C9A3F3 /* NSDictionary_JSONExtensions.m */; };
+		42E35A2F15A5372500C9A3F3 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A0E15A5372500C9A3F3 /* CJSONDeserializer.m */; };
+		42E35A3015A5372500C9A3F3 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A1015A5372500C9A3F3 /* CJSONScanner.m */; };
+		42E35A3115A5372500C9A3F3 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A1215A5372500C9A3F3 /* CJSONSerializer.m */; };
+		42E35A3215A5372500C9A3F3 /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = 42E35A1415A5372500C9A3F3 /* N.json */; };
+		42E35A3415A5372500C9A3F3 /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = 42E35A1615A5372500C9A3F3 /* P.json */; };
+		42E35A3615A5372500C9A3F3 /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = 42E35A1815A5372500C9A3F3 /* T.json */; };
+		42E35A3715A5372500C9A3F3 /* WTMGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A1B15A5372500C9A3F3 /* WTMGlyph.m */; };
+		42E35A3815A5372500C9A3F3 /* WTMGlyphDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A1D15A5372500C9A3F3 /* WTMGlyphDefaults.m */; };
+		42E35A3915A5372500C9A3F3 /* WTMGlyphDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A2015A5372500C9A3F3 /* WTMGlyphDetector.m */; };
+		42E35A3A15A5372500C9A3F3 /* WTMGlyphStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A2215A5372500C9A3F3 /* WTMGlyphStroke.m */; };
+		42E35A3B15A5372500C9A3F3 /* WTMGlyphTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A2415A5372500C9A3F3 /* WTMGlyphTemplate.m */; };
+		42E35A3C15A5372500C9A3F3 /* WTMGlyphUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E35A2615A5372500C9A3F3 /* WTMGlyphUtilities.m */; };
+		4305514416B5BED600F4214D /* WTMDetectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4305514316B5BED600F4214D /* WTMDetectionResult.m */; };
+		FB1C818B191B7E6A00577099 /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = FB1C818A191B7E6A00577099 /* B.json */; };
+		FB1C818F191B8FC300577099 /* Dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = FB1C818E191B8FC300577099 /* Dictionary.json */; };
+		FB29CC66197D18F100991B3A /* FontLibrary.json in Resources */ = {isa = PBXBuildFile; fileRef = FB29CC65197D18F100991B3A /* FontLibrary.json */; };
+		FB4B125C1920C3C40093CC78 /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B125A1920C3C40093CC78 /* OverviewViewController.m */; };
+		FB4B125D1920C3C40093CC78 /* OverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B125B1920C3C40093CC78 /* OverviewViewController.xib */; };
+		FB68A698191DEA5B0093F888 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68A697191DEA5B0093F888 /* Constants.m */; };
+		FBA1590F1877328B0067B4D9 /* DetectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA1590D1877328B0067B4D9 /* DetectorViewController.m */; };
+		FBA159101877328B0067B4D9 /* DetectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA1590E1877328B0067B4D9 /* DetectorViewController.xib */; };
+		FBC7DD03180A887600533B2F /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = FBC7DD02180A887600533B2F /* R.json */; };
+		FBF8D8711801335100EB5570 /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF8D8701801335100EB5570 /* A.json */; };
+		FBFA6128180BD844003F6C69 /* HindKA.json in Resources */ = {isa = PBXBuildFile; fileRef = FBFA6127180BD844003F6C69 /* HindKA.json */; };
+		FBFA612A180BE836003F6C69 /* pa.json in Resources */ = {isa = PBXBuildFile; fileRef = FBFA6129180BE836003F6C69 /* pa.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0448FFC816B4F48700E21FD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4249137815A5422B001F58DD /* WTMGlyphDetectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDetectorView.h; sourceTree = "<group>"; };
+		4249137915A5422B001F58DD /* WTMGlyphDetectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphDetectorView.m; sourceTree = "<group>"; };
+		4249138015A5544E001F58DD /* circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = circle.json; sourceTree = "<group>"; };
+		4249138215A5544E001F58DD /* square.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = square.json; sourceTree = "<group>"; };
+		4249138315A5544E001F58DD /* triangle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = triangle.json; sourceTree = "<group>"; };
+		4249138415A5544E001F58DD /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		4249138515A5544E001F58DD /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		42E359CF15A536C000C9A3F3 /* AlphabatesRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphabatesRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E359D315A536C000C9A3F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42E359D515A536C000C9A3F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42E359D715A536C000C9A3F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42E359DB15A536C000C9A3F3 /* AlphabatesRecognizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlphabatesRecognizer-Info.plist"; sourceTree = "<group>"; };
+		42E359DD15A536C000C9A3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42E359DF15A536C000C9A3F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42E359E115A536C000C9A3F3 /* AlphabatesRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlphabatesRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		42E359E215A536C000C9A3F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42E359E315A536C000C9A3F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42E359E515A536C000C9A3F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42E359E615A536C000C9A3F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42E359E915A536C000C9A3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		42E359EC15A536C000C9A3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		42E359FB15A5372500C9A3F3 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		42E359FC15A5372500C9A3F3 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = ../CDataScanner.m; sourceTree = "<group>"; };
+		42E359FD15A5372500C9A3F3 /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		42E359FF15A5372500C9A3F3 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		42E35A0015A5372500C9A3F3 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		42E35A0115A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		42E35A0215A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		42E35A0315A5372500C9A3F3 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		42E35A0415A5372500C9A3F3 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		42E35A0515A5372500C9A3F3 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		42E35A0615A5372500C9A3F3 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		42E35A0815A5372500C9A3F3 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		42E35A0915A5372500C9A3F3 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		42E35A0A15A5372500C9A3F3 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		42E35A0B15A5372500C9A3F3 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		42E35A0D15A5372500C9A3F3 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		42E35A0E15A5372500C9A3F3 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		42E35A0F15A5372500C9A3F3 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		42E35A1015A5372500C9A3F3 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		42E35A1115A5372500C9A3F3 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		42E35A1215A5372500C9A3F3 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		42E35A1315A5372500C9A3F3 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		42E35A1415A5372500C9A3F3 /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
+		42E35A1515A5372500C9A3F3 /* ndollar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ndollar.js; sourceTree = "<group>"; };
+		42E35A1615A5372500C9A3F3 /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		42E35A1815A5372500C9A3F3 /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		42E35A1A15A5372500C9A3F3 /* WTMGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyph.h; sourceTree = "<group>"; };
+		42E35A1B15A5372500C9A3F3 /* WTMGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyph.m; sourceTree = "<group>"; };
+		42E35A1C15A5372500C9A3F3 /* WTMGlyphDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDefaults.h; sourceTree = "<group>"; };
+		42E35A1D15A5372500C9A3F3 /* WTMGlyphDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphDefaults.m; sourceTree = "<group>"; };
+		42E35A1E15A5372500C9A3F3 /* WTMGlyphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDelegate.h; sourceTree = "<group>"; };
+		42E35A1F15A5372500C9A3F3 /* WTMGlyphDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDetector.h; sourceTree = "<group>"; };
+		42E35A2015A5372500C9A3F3 /* WTMGlyphDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphDetector.m; sourceTree = "<group>"; };
+		42E35A2115A5372500C9A3F3 /* WTMGlyphStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphStroke.h; sourceTree = "<group>"; };
+		42E35A2215A5372500C9A3F3 /* WTMGlyphStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphStroke.m; sourceTree = "<group>"; };
+		42E35A2315A5372500C9A3F3 /* WTMGlyphTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphTemplate.h; sourceTree = "<group>"; };
+		42E35A2415A5372500C9A3F3 /* WTMGlyphTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphTemplate.m; sourceTree = "<group>"; };
+		42E35A2515A5372500C9A3F3 /* WTMGlyphUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphUtilities.h; sourceTree = "<group>"; };
+		42E35A2615A5372500C9A3F3 /* WTMGlyphUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphUtilities.m; sourceTree = "<group>"; };
+		4305514216B5BED600F4214D /* WTMDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMDetectionResult.h; sourceTree = "<group>"; };
+		4305514316B5BED600F4214D /* WTMDetectionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMDetectionResult.m; sourceTree = "<group>"; };
+		FB1C818A191B7E6A00577099 /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		FB1C818E191B8FC300577099 /* Dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dictionary.json; sourceTree = "<group>"; };
+		FB29CC65197D18F100991B3A /* FontLibrary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FontLibrary.json; sourceTree = "<group>"; };
+		FB4B12591920C3C40093CC78 /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewViewController.h; sourceTree = "<group>"; };
+		FB4B125A1920C3C40093CC78 /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewViewController.m; sourceTree = "<group>"; };
+		FB4B125B1920C3C40093CC78 /* OverviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverviewViewController.xib; sourceTree = "<group>"; };
+		FB68A696191DEA5B0093F888 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FB68A697191DEA5B0093F888 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		FBA1590C1877328B0067B4D9 /* DetectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectorViewController.h; sourceTree = "<group>"; };
+		FBA1590D1877328B0067B4D9 /* DetectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectorViewController.m; sourceTree = "<group>"; };
+		FBA1590E1877328B0067B4D9 /* DetectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetectorViewController.xib; sourceTree = "<group>"; };
+		FBC7DD02180A887600533B2F /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		FBF8D8701801335100EB5570 /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		FBFA6127180BD844003F6C69 /* HindKA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HindKA.json; sourceTree = "<group>"; };
+		FBFA6129180BE836003F6C69 /* pa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pa.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42E359CC15A536C000C9A3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E359D415A536C000C9A3F3 /* UIKit.framework in Frameworks */,
+				42E359D615A536C000C9A3F3 /* Foundation.framework in Frameworks */,
+				42E359D815A536C000C9A3F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4249137F15A5544E001F58DD /* gestures */ = {
+			isa = PBXGroup;
+			children = (
+				4249138015A5544E001F58DD /* circle.json */,
+				4249138215A5544E001F58DD /* square.json */,
+				4249138315A5544E001F58DD /* triangle.json */,
+				4249138415A5544E001F58DD /* V.json */,
+				4249138515A5544E001F58DD /* W.json */,
+			);
+			path = gestures;
+			sourceTree = "<group>";
+		};
+		42E359C415A536C000C9A3F3 = {
+			isa = PBXGroup;
+			children = (
+				0448FFC816B4F48700E21FD8 /* Default-568h@2x.png */,
+				42E359FA15A5372500C9A3F3 /* WTMGlyph */,
+				42E359D915A536C000C9A3F3 /* WTMGlyphDemo */,
+				42E359D215A536C000C9A3F3 /* Frameworks */,
+				42E359D015A536C000C9A3F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42E359D015A536C000C9A3F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42E359CF15A536C000C9A3F3 /* AlphabatesRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42E359D215A536C000C9A3F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E359D315A536C000C9A3F3 /* UIKit.framework */,
+				42E359D515A536C000C9A3F3 /* Foundation.framework */,
+				42E359D715A536C000C9A3F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42E359D915A536C000C9A3F3 /* WTMGlyphDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4249137F15A5544E001F58DD /* gestures */,
+				42E359E215A536C000C9A3F3 /* AppDelegate.h */,
+				42E359E315A536C000C9A3F3 /* AppDelegate.m */,
+				42E359E515A536C000C9A3F3 /* ViewController.h */,
+				42E359E615A536C000C9A3F3 /* ViewController.m */,
+				4249137815A5422B001F58DD /* WTMGlyphDetectorView.h */,
+				4249137915A5422B001F58DD /* WTMGlyphDetectorView.m */,
+				42E359E815A536C000C9A3F3 /* ViewController_iPhone.xib */,
+				42E359EB15A536C000C9A3F3 /* ViewController_iPad.xib */,
+				42E359DA15A536C000C9A3F3 /* Supporting Files */,
+				FBA1590C1877328B0067B4D9 /* DetectorViewController.h */,
+				FBA1590D1877328B0067B4D9 /* DetectorViewController.m */,
+				FBA1590E1877328B0067B4D9 /* DetectorViewController.xib */,
+				FB4B12591920C3C40093CC78 /* OverviewViewController.h */,
+				FB4B125A1920C3C40093CC78 /* OverviewViewController.m */,
+				FB4B125B1920C3C40093CC78 /* OverviewViewController.xib */,
+			);
+			path = WTMGlyphDemo;
+			sourceTree = "<group>";
+		};
+		42E359DA15A536C000C9A3F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42E359DB15A536C000C9A3F3 /* AlphabatesRecognizer-Info.plist */,
+				42E359DC15A536C000C9A3F3 /* InfoPlist.strings */,
+				42E359DF15A536C000C9A3F3 /* main.m */,
+				42E359E115A536C000C9A3F3 /* AlphabatesRecognizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42E359FA15A5372500C9A3F3 /* WTMGlyph */ = {
+			isa = PBXGroup;
+			children = (
+				42E359FE15A5372500C9A3F3 /* Experimental */,
+				42E35A0715A5372500C9A3F3 /* Extensions */,
+				42E35A0C15A5372500C9A3F3 /* JSON */,
+				42E35A1415A5372500C9A3F3 /* N.json */,
+				FBF8D8701801335100EB5570 /* A.json */,
+				42E359FD15A5372500C9A3F3 /* D.json */,
+				42E35A1615A5372500C9A3F3 /* P.json */,
+				42E35A1815A5372500C9A3F3 /* T.json */,
+				42E35A1515A5372500C9A3F3 /* ndollar.js */,
+				42E359FB15A5372500C9A3F3 /* CDataScanner.h */,
+				42E35A1A15A5372500C9A3F3 /* WTMGlyph.h */,
+				42E35A1B15A5372500C9A3F3 /* WTMGlyph.m */,
+				4305514216B5BED600F4214D /* WTMDetectionResult.h */,
+				4305514316B5BED600F4214D /* WTMDetectionResult.m */,
+				42E35A1C15A5372500C9A3F3 /* WTMGlyphDefaults.h */,
+				42E35A1D15A5372500C9A3F3 /* WTMGlyphDefaults.m */,
+				42E35A1E15A5372500C9A3F3 /* WTMGlyphDelegate.h */,
+				42E35A1F15A5372500C9A3F3 /* WTMGlyphDetector.h */,
+				42E35A2015A5372500C9A3F3 /* WTMGlyphDetector.m */,
+				42E35A2115A5372500C9A3F3 /* WTMGlyphStroke.h */,
+				42E35A2215A5372500C9A3F3 /* WTMGlyphStroke.m */,
+				42E35A2315A5372500C9A3F3 /* WTMGlyphTemplate.h */,
+				42E35A2415A5372500C9A3F3 /* WTMGlyphTemplate.m */,
+				42E35A2515A5372500C9A3F3 /* WTMGlyphUtilities.h */,
+				42E35A2615A5372500C9A3F3 /* WTMGlyphUtilities.m */,
+				FBC7DD02180A887600533B2F /* R.json */,
+				FBFA6127180BD844003F6C69 /* HindKA.json */,
+				FBFA6129180BE836003F6C69 /* pa.json */,
+				FB1C818A191B7E6A00577099 /* B.json */,
+				FB1C818E191B8FC300577099 /* Dictionary.json */,
+				FB68A696191DEA5B0093F888 /* Constants.h */,
+				FB68A697191DEA5B0093F888 /* Constants.m */,
+				FB29CC65197D18F100991B3A /* FontLibrary.json */,
+			);
+			path = WTMGlyph;
+			sourceTree = "<group>";
+		};
+		42E359FE15A5372500C9A3F3 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				42E359FF15A5372500C9A3F3 /* CFilteringJSONSerializer.h */,
+				42E35A0015A5372500C9A3F3 /* CFilteringJSONSerializer.m */,
+				42E35A0115A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.h */,
+				42E35A0215A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.m */,
+				42E35A0315A5372500C9A3F3 /* CJSONSerialization.h */,
+				42E35A0415A5372500C9A3F3 /* CJSONSerialization.m */,
+				42E35A0515A5372500C9A3F3 /* CJSONSerializedData.h */,
+				42E35A0615A5372500C9A3F3 /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		42E35A0715A5372500C9A3F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42E35A0815A5372500C9A3F3 /* CDataScanner_Extensions.h */,
+				42E35A0915A5372500C9A3F3 /* CDataScanner_Extensions.m */,
+				42E35A0A15A5372500C9A3F3 /* NSDictionary_JSONExtensions.h */,
+				42E35A0B15A5372500C9A3F3 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42E35A0C15A5372500C9A3F3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				42E35A0D15A5372500C9A3F3 /* CJSONDeserializer.h */,
+				42E359FC15A5372500C9A3F3 /* CDataScanner.m */,
+				42E35A0E15A5372500C9A3F3 /* CJSONDeserializer.m */,
+				42E35A0F15A5372500C9A3F3 /* CJSONScanner.h */,
+				42E35A1015A5372500C9A3F3 /* CJSONScanner.m */,
+				42E35A1115A5372500C9A3F3 /* CJSONSerializer.h */,
+				42E35A1215A5372500C9A3F3 /* CJSONSerializer.m */,
+				42E35A1315A5372500C9A3F3 /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42E359CE15A536C000C9A3F3 /* AlphabatesRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E359F015A536C000C9A3F3 /* Build configuration list for PBXNativeTarget "AlphabatesRecognizer" */;
+			buildPhases = (
+				42E359CB15A536C000C9A3F3 /* Sources */,
+				42E359CC15A536C000C9A3F3 /* Frameworks */,
+				42E359CD15A536C000C9A3F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphabatesRecognizer;
+			productName = WTMGlyphDemo;
+			productReference = 42E359CF15A536C000C9A3F3 /* AlphabatesRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42E359C615A536C000C9A3F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "torin.nguyen@2359media.com";
+				TargetAttributes = {
+					42E359CE15A536C000C9A3F3 = {
+						DevelopmentTeam = NX6EKGVCW9;
+					};
+				};
+			};
+			buildConfigurationList = 42E359C915A536C000C9A3F3 /* Build configuration list for PBXProject "AlphabatesRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42E359C415A536C000C9A3F3;
+			productRefGroup = 42E359D015A536C000C9A3F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E359CE15A536C000C9A3F3 /* AlphabatesRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42E359CD15A536C000C9A3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFA612A180BE836003F6C69 /* pa.json in Resources */,
+				FBC7DD03180A887600533B2F /* R.json in Resources */,
+				42E359DE15A536C000C9A3F3 /* InfoPlist.strings in Resources */,
+				42E359EA15A536C000C9A3F3 /* ViewController_iPhone.xib in Resources */,
+				42E359ED15A536C000C9A3F3 /* ViewController_iPad.xib in Resources */,
+				FB4B125D1920C3C40093CC78 /* OverviewViewController.xib in Resources */,
+				FBA159101877328B0067B4D9 /* DetectorViewController.xib in Resources */,
+				FBF8D8711801335100EB5570 /* A.json in Resources */,
+				42E35A2815A5372500C9A3F3 /* D.json in Resources */,
+				42E35A3215A5372500C9A3F3 /* N.json in Resources */,
+				FB1C818F191B8FC300577099 /* Dictionary.json in Resources */,
+				42E35A3415A5372500C9A3F3 /* P.json in Resources */,
+				FB29CC66197D18F100991B3A /* FontLibrary.json in Resources */,
+				42E35A3615A5372500C9A3F3 /* T.json in Resources */,
+				FBFA6128180BD844003F6C69 /* HindKA.json in Resources */,
+				4249138615A5544E001F58DD /* circle.json in Resources */,
+				4249138815A5544E001F58DD /* square.json in Resources */,
+				4249138915A5544E001F58DD /* triangle.json in Resources */,
+				4249138A15A5544E001F58DD /* V.json in Resources */,
+				4249138B15A5544E001F58DD /* W.json in Resources */,
+				0448FFC916B4F48700E21FD8 /* Default-568h@2x.png in Resources */,
+				FB1C818B191B7E6A00577099 /* B.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42E359CB15A536C000C9A3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E359E015A536C000C9A3F3 /* main.m in Sources */,
+				FB4B125C1920C3C40093CC78 /* OverviewViewController.m in Sources */,
+				42E359E415A536C000C9A3F3 /* AppDelegate.m in Sources */,
+				42E359E715A536C000C9A3F3 /* ViewController.m in Sources */,
+				4249137A15A5422B001F58DD /* WTMGlyphDetectorView.m in Sources */,
+				FBA1590F1877328B0067B4D9 /* DetectorViewController.m in Sources */,
+				FB68A698191DEA5B0093F888 /* Constants.m in Sources */,
+				42E35A2715A5372500C9A3F3 /* CDataScanner.m in Sources */,
+				42E35A2915A5372500C9A3F3 /* CFilteringJSONSerializer.m in Sources */,
+				42E35A2A15A5372500C9A3F3 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				42E35A2B15A5372500C9A3F3 /* CJSONSerialization.m in Sources */,
+				42E35A2C15A5372500C9A3F3 /* CJSONSerializedData.m in Sources */,
+				42E35A2D15A5372500C9A3F3 /* CDataScanner_Extensions.m in Sources */,
+				42E35A2E15A5372500C9A3F3 /* NSDictionary_JSONExtensions.m in Sources */,
+				42E35A2F15A5372500C9A3F3 /* CJSONDeserializer.m in Sources */,
+				42E35A3015A5372500C9A3F3 /* CJSONScanner.m in Sources */,
+				42E35A3115A5372500C9A3F3 /* CJSONSerializer.m in Sources */,
+				42E35A3715A5372500C9A3F3 /* WTMGlyph.m in Sources */,
+				42E35A3815A5372500C9A3F3 /* WTMGlyphDefaults.m in Sources */,
+				42E35A3915A5372500C9A3F3 /* WTMGlyphDetector.m in Sources */,
+				42E35A3A15A5372500C9A3F3 /* WTMGlyphStroke.m in Sources */,
+				42E35A3B15A5372500C9A3F3 /* WTMGlyphTemplate.m in Sources */,
+				42E35A3C15A5372500C9A3F3 /* WTMGlyphUtilities.m in Sources */,
+				4305514416B5BED600F4214D /* WTMDetectionResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42E359DC15A536C000C9A3F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E359DD15A536C000C9A3F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42E359E815A536C000C9A3F3 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E359E915A536C000C9A3F3 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		42E359EB15A536C000C9A3F3 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E359EC15A536C000C9A3F3 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42E359EE15A536C000C9A3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42E359EF15A536C000C9A3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42E359F115A536C000C9A3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTMGlyphDemo/AlphabatesRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "WTMGlyphDemo/AlphabatesRecognizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = AlphabatesRecognizer;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42E359F215A536C000C9A3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTMGlyphDemo/AlphabatesRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "WTMGlyphDemo/AlphabatesRecognizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = AlphabatesRecognizer;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42E359C915A536C000C9A3F3 /* Build configuration list for PBXProject "AlphabatesRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E359EE15A536C000C9A3F3 /* Debug */,
+				42E359EF15A536C000C9A3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E359F015A536C000C9A3F3 /* Build configuration list for PBXNativeTarget "AlphabatesRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E359F115A536C000C9A3F3 /* Debug */,
+				42E359F215A536C000C9A3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42E359C615A536C000C9A3F3 /* Project object */;
+}
