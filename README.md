@@ -9,23 +9,23 @@ An Alphabate Recognizer for iOS Platform using $N Algorithum.This library make u
 
 Anthony, L. and Wobbrock, J.O. (2010). [A lightweight multistroke recognizer for user interface prototypes](http://faculty.washington.edu/wobbrock/pubs/gi-10.2.pdf). Proceedings of Graphics Interface (GI '10). Ottawa, Ontario (May 31-June 2, 2010). Toronto, Ontario: Canadian Information Processing Society, pp. 245-252.
 
-# Detecting Glyphs
+# Features
+* Recognition Support for all 26 upper case english alphabates.
+* Framework for self learning for handwriting recognition for iOS touch devices.
 
-A Glyph is a user-defined set of Strokes, which are in turn just an array of points. When a Glyph is initialized, it first permutes through all the possible combinations of Stroke directions/order necessary to recreate itself. It also resamples and resizes itslef into a bounding box. Finally, a Glyph creates unistrokes (Templates) from all the calculated multistrokes.
 
-The Detector collects user input (an array of points) and triggers a comparison of the input against all of the Glyph Templates. Each Template is given a score, and the Template with the highest score is considered the match. The Glyph that the Template belongs to is announced to the Delegate.
+#  Glyphs
 
-# Creating Glyphs
+A glyph is a graphical shape used to depict a character. There are any numbers of glyphs that correspond to a particular character.  
 
-A Glyph can either be defined manually by defining its Strokes and initializing a Glyph with those Strokes. Or, a newly created Glyph can be fed user input and create itself when ready. 
 
 # Guided By 
-- [Mr. Pratosh Bansal](https://github.com/pratoshbansal) Professor,Department of Information Technology, IET-DAVV, Indore.
+- [Mr. Pratosh Bansal](http://www.iet.dauniv.ac.in/index.php/departments/information-technology/223) Professor,Department of Information Technology, IET-DAVV, Indore.
 - [Mr. Awanish Tiwari](https://github.com/awanish-tiwari) Technical Architect, Newput Infotech, Indore.
 
 # Acknowledgement
 
-This work is done as a part of my ME thesis work from IET-DAVV, Indore for project entitled "Building A Personal Handwriting Recognizer on an iOS device and Adding New Gestures for Handwriting Recognition" in guidance of Mr. Pratosh Bansal @pratoshbansal ,Professor,Department of Information Technology, IET-DAVV, Indore and Industrial guide Mr Awanish Tiwari@awanish-tiwari, Technical Architect, Newput Infotech, Indore.
+This work is done as a part of my ME thesis work from IET-DAVV, Indore for project entitled "Building A Personal Handwriting Recognizer on an iOS device and Adding New Gestures for Handwriting Recognition" in guidance of Mr. Pratosh Bansal  ,Professor,Department of Information Technology, IET-DAVV, Indore and Industrial guide Mr Awanish Tiwari, Technical Architect, Newput Infotech, Indore.
 
 
 # License
