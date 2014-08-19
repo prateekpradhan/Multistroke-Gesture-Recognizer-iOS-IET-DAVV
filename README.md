@@ -14,7 +14,7 @@ Anthony, L. and Wobbrock, J.O. (2010). [A lightweight multistroke recognizer for
 * Framework for self learning for handwriting recognition for iOS touch devices.
 
 
-#  Glyphs
+#  Glyph
 
 A glyph is a graphical shape used to depict a character. There are any numbers of glyphs that correspond to a particular character.  
 
