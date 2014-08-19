@@ -14,11 +14,6 @@ Anthony, L. and Wobbrock, J.O. (2010). [A lightweight multistroke recognizer for
 * Framework for self learning for handwriting recognition for iOS touch devices.
 
 
-#  Glyph
-
-A glyph is a graphical shape used to depict a character. There are any numbers of glyphs that correspond to a particular character.  
-
-
 # Guided By 
 - [Mr. Pratosh Bansal](http://www.iet.dauniv.ac.in/index.php/departments/information-technology/223) Professor,Department of Information Technology, IET-DAVV, Indore.
 - [Mr. Awanish Tiwari](https://github.com/awanish-tiwari) Technical Architect, Newput Infotech, Indore.
